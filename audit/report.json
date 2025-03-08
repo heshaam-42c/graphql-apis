@@ -1,0 +1,2538 @@
+{
+ "issueCounter": 493,
+ "valid": true,
+ "score": -2.41,
+ "issues": {
+  "graphql-custom-scalar-input-string-needed": {
+   "counter": 30,
+   "description": "Built-in String type used in input",
+   "occurrences": [
+    {
+     "location": "Query.artistAffinities(after: String)",
+     "specificDescription": "",
+     "score": -0.83
+    },
+    {
+     "location": "Query.artistAffinities(before: String)",
+     "specificDescription": "",
+     "score": -0.83
+    },
+    {
+     "location": "Query.artistAffinities(userId: String)",
+     "specificDescription": "",
+     "score": -0.83
+    },
+    {
+     "location": "Query.artistRecommendations(after: String)",
+     "specificDescription": "",
+     "score": -1.25
+    },
+    {
+     "location": "Query.artistRecommendations(before: String)",
+     "specificDescription": "",
+     "score": -1.25
+    },
+    {
+     "location": "Query.artistSparklines(after: String)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.artistSparklines(artistId: String!)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.artistSparklines(before: String)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.artworkRecommendations(after: String)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.artworkRecommendations(before: String)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.artworkRecommendations(userId: String)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights(endYear: String)",
+     "specificDescription": "",
+     "score": -1.25
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights(medium: String!)",
+     "specificDescription": "",
+     "score": -1.25
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights(startYear: String)",
+     "specificDescription": "",
+     "score": -1.25
+    },
+    {
+     "location": "Query.calendarYearPriceInsights(endYear: String)",
+     "specificDescription": "",
+     "score": -1.66
+    },
+    {
+     "location": "Query.calendarYearPriceInsights(startYear: String)",
+     "specificDescription": "",
+     "score": -1.66
+    },
+    {
+     "location": "Query.marketPriceInsights(medium: String!)",
+     "specificDescription": "",
+     "score": -2.5
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch(after: String)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch(before: String)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch(input[0].ArtistIdMediumTupleType.artistId: String!)",
+     "specificDescription": "",
+     "score": -0.5
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch(input[0].ArtistIdMediumTupleType.medium: String!)",
+     "specificDescription": "",
+     "score": -0.5
+    },
+    {
+     "location": "Query.newForYouRecommendations(after: String)",
+     "specificDescription": "",
+     "score": -0.71
+    },
+    {
+     "location": "Query.newForYouRecommendations(before: String)",
+     "specificDescription": "",
+     "score": -0.71
+    },
+    {
+     "location": "Query.newForYouRecommendations(userId: String)",
+     "specificDescription": "",
+     "score": -0.71
+    },
+    {
+     "location": "Query.newForYouRecommendations(version: String)",
+     "specificDescription": "",
+     "score": -0.71
+    },
+    {
+     "location": "Query.partnerStats(partnerId: String!)",
+     "specificDescription": "",
+     "score": -5
+    },
+    {
+     "location": "Query.priceInsights(after: String)",
+     "specificDescription": "",
+     "score": -0.83
+    },
+    {
+     "location": "Query.priceInsights(before: String)",
+     "specificDescription": "",
+     "score": -0.83
+    },
+    {
+     "location": "Query.pricingContext(artistId: String!)",
+     "specificDescription": "",
+     "score": -1.66
+    },
+    {
+     "location": "Query.userStats(userId: String!)",
+     "specificDescription": "",
+     "score": -5
+    }
+   ]
+  },
+  "graphql-custom-scalar-input-int-needed": {
+   "counter": 16,
+   "description": "Built-in Int type used in input",
+   "occurrences": [
+    {
+     "location": "Query.artistAffinities(first: Int)",
+     "specificDescription": "",
+     "score": -0.83
+    },
+    {
+     "location": "Query.artistAffinities(last: Int)",
+     "specificDescription": "",
+     "score": -0.83
+    },
+    {
+     "location": "Query.artistRecommendations(first: Int)",
+     "specificDescription": "",
+     "score": -1.25
+    },
+    {
+     "location": "Query.artistRecommendations(last: Int)",
+     "specificDescription": "",
+     "score": -1.25
+    },
+    {
+     "location": "Query.artistSparklines(first: Int)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.artistSparklines(last: Int)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.artworkRecommendations(first: Int)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.artworkRecommendations(last: Int)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch(first: Int)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch(last: Int)",
+     "specificDescription": "",
+     "score": -1
+    },
+    {
+     "location": "Query.newForYouRecommendations(first: Int)",
+     "specificDescription": "",
+     "score": -0.71
+    },
+    {
+     "location": "Query.newForYouRecommendations(last: Int)",
+     "specificDescription": "",
+     "score": -0.71
+    },
+    {
+     "location": "Query.newForYouRecommendations(maxWorksPerArtist: Int)",
+     "specificDescription": "",
+     "score": -0.71
+    },
+    {
+     "location": "Query.priceInsights(first: Int)",
+     "specificDescription": "",
+     "score": -0.83
+    },
+    {
+     "location": "Query.priceInsights(last: Int)",
+     "specificDescription": "",
+     "score": -0.83
+    },
+    {
+     "location": "Query.pricingContext(sizeScore: Int!)",
+     "specificDescription": "",
+     "score": -1.66
+    }
+   ]
+  },
+  "graphql-custom-scalar-input-float-needed": {
+   "counter": 1,
+   "description": "Built-in Float type used in input",
+   "occurrences": [
+    {
+     "location": "Query.artistAffinities(minScore: Float)",
+     "specificDescription": "",
+     "score": -0.83
+    }
+   ]
+  },
+  "graphql-list-output-directive-needed": {
+   "counter": 37,
+   "description": "List in output is missing '@list' directive",
+   "occurrences": [
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.edges: [ArtistAffinityEdge]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.nodes: [ArtistAffinity]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageCursors.PageCursors.around: [PageCursor!]!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.edges: [ArtistRecommendationEdge]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.nodes: [ArtistRecommendation]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageCursors.PageCursors.around: [PageCursor!]!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.edges: [ArtistSparklineEdge]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.nodes: [ArtistSparkline]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageCursors.PageCursors.around: [PageCursor!]!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.edges: [ArtworkRecommendationEdge]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.nodes: [ArtworkRecommendation]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageCursors.PageCursors.around: [PageCursor!]!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights(): [CalendarYearMarketPriceInsights!]",
+     "specificDescription": "",
+     "score": -2.14
+    },
+    {
+     "location": "Query.calendarYearPriceInsights(): [CalendarYearPriceInsights!]",
+     "specificDescription": "",
+     "score": -2.14
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights: [CalendarYearMarketPriceInsights!]",
+     "specificDescription": "",
+     "score": -1.07
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges: [MarketPriceInsightsEdge]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes: [MarketPriceInsights]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageCursors.PageCursors.around: [PageCursor!]!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.edges: [NewForYouRecommendationEdge]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.nodes: [NewForYouRecommendation]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageCursors.PageCursors.around: [PageCursor!]!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworkPublished.PartnerStatsArtworksPublished.timeSeries: [PartnerStatsArtworksPublishedTimeSeries!]!",
+     "specificDescription": "",
+     "score": -0.03
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworksPublished.ArtworksPublishedStats.timeSeries: [PartnerTimeSeriesStats!]!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.groupedStats.GroupedStatsConnection.edges: [GroupedStatsEdge]",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.groupedStats.GroupedStatsConnection.nodes: [GroupedStats]",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.inquiry.PartnerInquiryStats.timeSeries: [PartnerInquiryCountTimeSeriesStats!]",
+     "specificDescription": "",
+     "score": -0.03
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.timeSeries: [PartnerStatsPageviewsTimeSeries!]",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.timeSeries: [PartnerTimeSeriesStats!]!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.rankedStats.RankedStatsConnection.edges: [RankedStatsEdge]",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.rankedStats.RankedStatsConnection.nodes: [RankedStats]",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.sales.PartnerSalesStats.timeSeries: [PartnerSalesTimeSeriesStats!]",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.topArtworks.RankedStatsConnection.edges: [RankedStatsEdge]",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.topArtworks.RankedStatsConnection.nodes: [RankedStats]",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges: [PriceInsightEdge]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes: [MarketPriceInsights]",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageCursors.PageCursors.around: [PageCursor!]!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.pricingContext().PricingContext.bins: [HistogramBin!]!",
+     "specificDescription": "",
+     "score": -1.07
+    }
+   ]
+  },
+  "graphql-custom-scalar-output-string-needed": {
+   "counter": 90,
+   "description": "Built-in String type used in output",
+   "occurrences": [
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.edges[0].ArtistAffinityEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageCursors.PageCursors.around[0].PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageCursors.PageCursors.first.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageCursors.PageCursors.last.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageCursors.PageCursors.previous.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.edges[0].ArtistRecommendationEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageCursors.PageCursors.around[0].PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageCursors.PageCursors.first.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageCursors.PageCursors.last.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageCursors.PageCursors.previous.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.edges[0].ArtistSparklineEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.edges[0].ArtistSparklineEdge.node.ArtistSparkline.artistName: String",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.edges[0].ArtistSparklineEdge.node.ArtistSparkline.eventDigest: String",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.edges[0].ArtistSparklineEdge.node.ArtistSparkline.year: String",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.nodes[0].ArtistSparkline.artistName: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.nodes[0].ArtistSparkline.eventDigest: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.nodes[0].ArtistSparkline.year: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageCursors.PageCursors.around[0].PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageCursors.PageCursors.first.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageCursors.PageCursors.last.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageCursors.PageCursors.previous.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.edges[0].ArtworkRecommendationEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageCursors.PageCursors.around[0].PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageCursors.PageCursors.first.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageCursors.PageCursors.last.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageCursors.PageCursors.previous.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.artistName: String",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.medium: String",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.year: String!",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.artistName: String",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.medium: String",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.year: String!",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.medium: String!",
+     "specificDescription": "",
+     "score": -1.07
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.artistName: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.medium: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.artistName: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.medium: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.artistName: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.medium: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageCursors.PageCursors.around[0].PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageCursors.PageCursors.first.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageCursors.PageCursors.last.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageCursors.PageCursors.previous.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.edges[0].NewForYouRecommendationEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.edges[0].NewForYouRecommendationEdge.node.NewForYouRecommendation.version: String!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.nodes[0].NewForYouRecommendation.version: String!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageCursors.PageCursors.around[0].PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageCursors.PageCursors.first.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageCursors.PageCursors.last.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageCursors.PageCursors.previous.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworkPublished.PartnerStatsArtworksPublished.partnerId: String!",
+     "specificDescription": "",
+     "score": -0.03
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.audience.PartnerAudienceStats.partnerId: String!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.groupedStats.GroupedStatsConnection.edges[0].GroupedStatsEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.groupedStats.GroupedStatsConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.groupedStats.GroupedStatsConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.inquiry.PartnerInquiryStats.partnerId: String!",
+     "specificDescription": "",
+     "score": -0.03
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.partnerId: String!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.partnerId: String!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.rankedStats.RankedStatsConnection.edges[0].RankedStatsEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.rankedStats.RankedStatsConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.rankedStats.RankedStatsConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.sales.PartnerSalesStats.partnerId: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.topArtworks.RankedStatsConnection.edges[0].RankedStatsEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.topArtworks.RankedStatsConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.topArtworks.RankedStatsConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.cursor: String!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.artistName: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.medium: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.artistName: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.medium: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageCursors.PageCursors.around[0].PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageCursors.PageCursors.first.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageCursors.PageCursors.last.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageCursors.PageCursors.previous.PageCursor.cursor: String!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageInfo.PageInfo.endCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageInfo.PageInfo.startCursor: String",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.userStats().UserStats.userId: String!",
+     "specificDescription": "",
+     "score": -1.07
+    }
+   ]
+  },
+  "graphql-custom-scalar-output-id-needed": {
+   "counter": 24,
+   "description": "Built-in ID type used in output",
+   "occurrences": [
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.edges[0].ArtistAffinityEdge.node.ArtistAffinity.artistId: ID!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.nodes[0].ArtistAffinity.artistId: ID!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.edges[0].ArtistRecommendationEdge.node.ArtistRecommendation.artistId: ID!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.nodes[0].ArtistRecommendation.artistId: ID!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.edges[0].ArtistSparklineEdge.node.ArtistSparkline.artistId: ID!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.nodes[0].ArtistSparkline.artistId: ID!",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.edges[0].ArtworkRecommendationEdge.node.ArtworkRecommendation.artworkId: ID!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.nodes[0].ArtworkRecommendation.artworkId: ID!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.artistId: ID",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.id: ID!",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.artistId: ID",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.id: ID!",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.artistId: ID",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.id: ID!",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.artistId: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.id: ID!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.artistId: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.id: ID!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.edges[0].NewForYouRecommendationEdge.node.NewForYouRecommendation.artworkId: ID!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.nodes[0].NewForYouRecommendation.artworkId: ID!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.artistId: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.id: ID!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.artistId: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.id: ID!",
+     "specificDescription": "",
+     "score": 0
+    }
+   ]
+  },
+  "graphql-custom-scalar-output-float-needed": {
+   "counter": 35,
+   "description": "Built-in Float type used in output",
+   "occurrences": [
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.edges[0].ArtistAffinityEdge.node.ArtistAffinity.score: Float!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.nodes[0].ArtistAffinity.score: Float!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.edges[0].ArtistRecommendationEdge.node.ArtistRecommendation.score: Float!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.nodes[0].ArtistRecommendation.score: Float!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.edges[0].ArtistSparklineEdge.node.ArtistSparkline.tier: Float",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.nodes[0].ArtistSparkline.tier: Float",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.edges[0].ArtworkRecommendationEdge.node.ArtworkRecommendation.score: Float!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.nodes[0].ArtworkRecommendation.score: Float!",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.demandRank: Float",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.demandTrend: Float",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.liquidityRank: Float",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.medianSaleToEstimateRatio: Float",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.sellThroughRate: Float",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.demandRank: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.demandTrend: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.liquidityRank: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.medianSaleToEstimateRatio: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.sellThroughRate: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.demandRank: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.demandTrend: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.liquidityRank: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.medianSaleToEstimateRatio: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.sellThroughRate: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.edges[0].NewForYouRecommendationEdge.node.NewForYouRecommendation.score: Float!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.nodes[0].NewForYouRecommendation.score: Float!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.demandRank: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.demandTrend: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.liquidityRank: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.medianSaleToEstimateRatio: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.sellThroughRate: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.demandRank: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.demandTrend: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.liquidityRank: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.medianSaleToEstimateRatio: Float",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.sellThroughRate: Float",
+     "specificDescription": "",
+     "score": 0
+    }
+   ]
+  },
+  "graphql-custom-scalar-output-int-needed": {
+   "counter": 136,
+   "description": "Built-in Int type used in output",
+   "occurrences": [
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageCursors.PageCursors.around[0].PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageCursors.PageCursors.first.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageCursors.PageCursors.last.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.pageCursors.PageCursors.previous.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.totalCount: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistAffinities().ArtistAffinityConnection.totalPages: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageCursors.PageCursors.around[0].PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageCursors.PageCursors.first.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageCursors.PageCursors.last.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.pageCursors.PageCursors.previous.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.totalCount: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistRecommendations().ArtistRecommendationConnection.totalPages: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageCursors.PageCursors.around[0].PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageCursors.PageCursors.first.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageCursors.PageCursors.last.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.pageCursors.PageCursors.previous.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.totalCount: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.totalPages: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageCursors.PageCursors.around[0].PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageCursors.PageCursors.first.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageCursors.PageCursors.last.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.pageCursors.PageCursors.previous.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.totalCount: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.artworkRecommendations().ArtworkRecommendationConnection.totalPages: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.annualLotsSold: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.artsyQInventory: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lotsSoldLast12Months: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lotsSoldLast24Months: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lotsSoldLast36Months: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lotsSoldLast48Months: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lotsSoldLast60Months: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lotsSoldLast72Months: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lotsSoldLast84Months: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lotsSoldLast96Months: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.medianSaleOverEstimatePercentage: Int",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.annualLotsSold: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.artsyQInventory: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lotsSoldLast12Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lotsSoldLast24Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lotsSoldLast36Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lotsSoldLast48Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lotsSoldLast60Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lotsSoldLast72Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lotsSoldLast84Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lotsSoldLast96Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.medianSaleOverEstimatePercentage: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.annualLotsSold: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.artsyQInventory: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lotsSoldLast12Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lotsSoldLast24Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lotsSoldLast36Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lotsSoldLast48Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lotsSoldLast60Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lotsSoldLast72Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lotsSoldLast84Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lotsSoldLast96Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.medianSaleOverEstimatePercentage: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageCursors.PageCursors.around[0].PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageCursors.PageCursors.first.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageCursors.PageCursors.last.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.pageCursors.PageCursors.previous.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.totalCount: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.totalPages: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageCursors.PageCursors.around[0].PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageCursors.PageCursors.first.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageCursors.PageCursors.last.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.pageCursors.PageCursors.previous.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.totalCount: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.totalPages: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworkPublished.PartnerStatsArtworksPublished.percentageChanged: Int!",
+     "specificDescription": "",
+     "score": -0.03
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworkPublished.PartnerStatsArtworksPublished.timeSeries[0].PartnerStatsArtworksPublishedTimeSeries.count: Int",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworkPublished.PartnerStatsArtworksPublished.totalCount: Int!",
+     "specificDescription": "",
+     "score": -0.03
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworksPublished.ArtworksPublishedStats.percentageChanged: Int!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworksPublished.ArtworksPublishedStats.timeSeries[0].PartnerTimeSeriesStats.count: Int",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworksPublished.ArtworksPublishedStats.totalCount: Int!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.audience.PartnerAudienceStats.commercialVisitors: Int!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.audience.PartnerAudienceStats.uniqueVisitors: Int!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.inquiry.PartnerInquiryStats.inquiryCount: Int!",
+     "specificDescription": "",
+     "score": -0.03
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.inquiry.PartnerInquiryStats.inquiryResponseTime: Int",
+     "specificDescription": "",
+     "score": -0.03
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.inquiry.PartnerInquiryStats.timeSeries[0].PartnerInquiryCountTimeSeriesStats.count: Int",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.artworkViews: Int!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.galleryViews: Int!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.percentageChanged: Int!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.showViews: Int!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.timeSeries[0].PartnerStatsPageviewsTimeSeries.count: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.totalCount: Int!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.uniqueVisitors: Int!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.artworkViews: Int",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.galleryViews: Int",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.percentageChanged: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.showViews: Int",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.timeSeries[0].PartnerTimeSeriesStats.count: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.totalCount: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.uniqueVisitors: Int",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.rankedStats.RankedStatsConnection.edges[0].RankedStatsEdge.node.RankedStats.value: Int!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.rankedStats.RankedStatsConnection.nodes[0].RankedStats.value: Int!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.sales.PartnerSalesStats.orderCount: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.sales.PartnerSalesStats.orderResponseTime: Int",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.sales.PartnerSalesStats.timeSeries[0].PartnerSalesTimeSeriesStats.count: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.sales.PartnerSalesStats.timeSeries[0].PartnerSalesTimeSeriesStats.totalCents: Int!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.sales.PartnerSalesStats.totalCents: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.topArtworks.RankedStatsConnection.edges[0].RankedStatsEdge.node.RankedStats.value: Int!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.topArtworks.RankedStatsConnection.nodes[0].RankedStats.value: Int!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.uniqueVisitors: Int",
+     "specificDescription": "",
+     "score": -0.17
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.annualLotsSold: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.artsyQInventory: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lotsSoldLast12Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lotsSoldLast24Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lotsSoldLast36Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lotsSoldLast48Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lotsSoldLast60Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lotsSoldLast72Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lotsSoldLast84Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lotsSoldLast96Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.medianSaleOverEstimatePercentage: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.annualLotsSold: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.artsyQInventory: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lotsSoldLast12Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lotsSoldLast24Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lotsSoldLast36Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lotsSoldLast48Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lotsSoldLast60Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lotsSoldLast72Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lotsSoldLast84Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lotsSoldLast96Months: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.medianSaleOverEstimatePercentage: Int",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageCursors.PageCursors.around[0].PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageCursors.PageCursors.first.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageCursors.PageCursors.last.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.pageCursors.PageCursors.previous.PageCursor.page: Int!",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.totalCount: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.totalPages: Int",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.pricingContext().PricingContext.bins[0].HistogramBin.maxPriceCents: Int!",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.pricingContext().PricingContext.bins[0].HistogramBin.minPriceCents: Int!",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.pricingContext().PricingContext.bins[0].HistogramBin.numArtworks: Int!",
+     "specificDescription": "",
+     "score": -0.35
+    },
+    {
+     "location": "Query.userStats().UserStats.totalPurchaseCount: Int!",
+     "specificDescription": "",
+     "score": -1.07
+    }
+   ]
+  },
+  "graphql-custom-scalar-output-directive-needed": {
+   "counter": 119,
+   "description": "Custom scalar in output is missing '@stringValue' or '@numberValue' directive",
+   "occurrences": [
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.edges[0].ArtistSparklineEdge.node.ArtistSparkline.sparkles: String",
+     "specificDescription": "",
+     "score": -0.02
+    },
+    {
+     "location": "Query.artistSparklines().ArtistSparklineConnection.nodes[0].ArtistSparkline.sparkles: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.averageSalePrice: String",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.createdAt: ID",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.lotsSold: String",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.medianSalePrice: String",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.updatedAt: ID",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearMarketPriceInsights()[0].CalendarYearMarketPriceInsights.valueSold: String",
+     "specificDescription": "",
+     "score": -0.19
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.averageSalePrice: String",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.createdAt: ID",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.lotsSold: String",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.medianSalePrice: String",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.updatedAt: ID",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.calendarYearPriceInsights()[0].CalendarYearPriceInsights.calendarYearMarketPriceInsights[0].CalendarYearMarketPriceInsights.valueSold: String",
+     "specificDescription": "",
+     "score": -0.09
+    },
+    {
+     "location": "Query.lastUpdatedAt(): String!",
+     "specificDescription": "",
+     "score": -2.14
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.annualValueSoldCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.createdAt: ID",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.highRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.largeHighRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.largeLowRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.largeMidRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lastAuctionResultDate: ID",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.lowRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.medianSalePriceLast36Months: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.medianSalePriceLast96Months: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.mediumHighRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.mediumLowRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.mediumMidRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.midRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.smallHighRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.smallLowRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.smallMidRangeCents: String",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsights().MarketPriceInsights.updatedAt: ID",
+     "specificDescription": "",
+     "score": -0.05
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.annualValueSoldCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.createdAt: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.highRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.largeHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.largeLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.largeMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lastAuctionResultDate: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.lowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.medianSalePriceLast36Months: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.medianSalePriceLast96Months: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.mediumHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.mediumLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.mediumMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.midRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.smallHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.smallLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.smallMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.edges[0].MarketPriceInsightsEdge.node.MarketPriceInsights.updatedAt: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.annualValueSoldCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.createdAt: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.highRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.largeHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.largeLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.largeMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lastAuctionResultDate: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.lowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.medianSalePriceLast36Months: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.medianSalePriceLast96Months: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.mediumHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.mediumLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.mediumMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.midRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.smallHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.smallLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.smallMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.marketPriceInsightsBatch().MarketPriceInsightsConnection.nodes[0].MarketPriceInsights.updatedAt: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.edges[0].NewForYouRecommendationEdge.node.NewForYouRecommendation.publishedAt: String!!",
+     "specificDescription": "",
+     "score": -0.04
+    },
+    {
+     "location": "Query.newForYouRecommendations().NewForYouRecommendationConnection.nodes[0].NewForYouRecommendation.publishedAt: String!!",
+     "specificDescription": "",
+     "score": -0.08
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworkPublished.PartnerStatsArtworksPublished.timeSeries[0].PartnerStatsArtworksPublishedTimeSeries.endTime: String!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworkPublished.PartnerStatsArtworksPublished.timeSeries[0].PartnerStatsArtworksPublishedTimeSeries.startTime: String!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworksPublished.ArtworksPublishedStats.timeSeries[0].PartnerTimeSeriesStats.endTime: String!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.artworksPublished.ArtworksPublishedStats.timeSeries[0].PartnerTimeSeriesStats.startTime: String!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.inquiry.PartnerInquiryStats.timeSeries[0].PartnerInquiryCountTimeSeriesStats.endTime: String!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.inquiry.PartnerInquiryStats.timeSeries[0].PartnerInquiryCountTimeSeriesStats.startTime: String!",
+     "specificDescription": "",
+     "score": -0.01
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.timeSeries[0].PartnerStatsPageviewsTimeSeries.endTime: String!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageview.PartnerStatsPageviews.timeSeries[0].PartnerStatsPageviewsTimeSeries.startTime: String!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.timeSeries[0].PartnerTimeSeriesStats.endTime: String!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.pageviews.PageviewStats.timeSeries[0].PartnerTimeSeriesStats.startTime: String!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.sales.PartnerSalesStats.timeSeries[0].PartnerSalesTimeSeriesStats.endTime: String!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.partnerStats().PartnerStats.sales.PartnerSalesStats.timeSeries[0].PartnerSalesTimeSeriesStats.startTime: String!",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.annualValueSoldCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.createdAt: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.highRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.largeHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.largeLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.largeMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lastAuctionResultDate: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.lowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.medianSalePriceLast36Months: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.medianSalePriceLast96Months: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.mediumHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.mediumLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.mediumMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.midRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.smallHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.smallLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.smallMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.edges[0].PriceInsightEdge.node.MarketPriceInsights.updatedAt: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.annualValueSoldCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.createdAt: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.highRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.largeHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.largeLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.largeMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lastAuctionResultDate: ID",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.lowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.medianSalePriceLast36Months: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.medianSalePriceLast96Months: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.mediumHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.mediumLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.mediumMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.midRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.smallHighRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.smallLowRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.smallMidRangeCents: String",
+     "specificDescription": "",
+     "score": 0
+    },
+    {
+     "location": "Query.priceInsights().PriceInsightConnection.nodes[0].MarketPriceInsights.updatedAt: ID",
+     "specificDescription": "",
+     "score": 0
+    }
+   ]
+  },
+  "graphql-custom-scalar-input-id-needed": {
+   "counter": 4,
+   "description": "Built-in ID type used in input",
+   "occurrences": [
+    {
+     "location": "Query.calendarYearMarketPriceInsights(artistId: ID!)",
+     "specificDescription": "",
+     "score": -1.25
+    },
+    {
+     "location": "Query.calendarYearPriceInsights(artistId: ID!)",
+     "specificDescription": "",
+     "score": -1.66
+    },
+    {
+     "location": "Query.marketPriceInsights(artistId: ID!)",
+     "specificDescription": "",
+     "score": -2.5
+    },
+    {
+     "location": "Query.priceInsights(artistId: ID!)",
+     "specificDescription": "",
+     "score": -0.83
+    }
+   ]
+  },
+  "graphql-list-input-directive-needed": {
+   "counter": 1,
+   "description": "List in input is missing '@list' directive",
+   "occurrences": [
+    {
+     "location": "Query.marketPriceInsightsBatch(input: [ArtistIdMediumTupleType!]!)",
+     "specificDescription": "",
+     "score": -1
+    }
+   ]
+  }
+ }
+}
