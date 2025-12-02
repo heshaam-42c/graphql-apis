@@ -9,7 +9,7 @@ end customization rules
 
 scalar Time
 
-directive @restrictedInteger(minimum: Int, maximum: Int) on FIELD_DEFINITION | INPUT_FIELD_DEFINITION
+directive @restrictedInteger(minimum: Int, maximum: Int) on FIELD_DEFINITION | INPUT_FIELD_DEFINITION | ARGUMENT_DEFINITION
 
 type Account {
   id: String!
